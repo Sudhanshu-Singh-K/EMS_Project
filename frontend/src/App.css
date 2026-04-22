@@ -1,0 +1,83 @@
+/* Center everything */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+/* Container */
+.container {
+  max-width: 400px;
+  margin: 60px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+  background: #0056b3;
+}
+
+/* Dashboard */
+.dashboard {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section spacing */
+.section {
+  margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar button {
+  width: auto;
+  padding: 6px 12px;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
